@@ -1,10 +1,12 @@
-import React from 'react';
-import { Button } from 'antd';
+import React, { FunctionComponent } from 'react';
 
-export const App = () => {
+import { CategoriesList } from './components/CategoriesList';
+import { CATEGORIES } from './constants/categories';
+
+export const App: FunctionComponent = () => {
   return (
     <div>
-      <Button>button sample</Button>
+      <CategoriesList list={CATEGORIES} />
     </div>
   );
 };
