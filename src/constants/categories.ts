@@ -1,6 +1,6 @@
 import { Category } from './../models/category';
 
-export const CATEGORIES: Category[] = [
+export const PREDEFINED_CATEGORIES: Category[] = [
   { id: 'services', name: 'Services' },
   { id: 'family', name: 'Family' },
   { id: 'pets', name: 'Pets' },

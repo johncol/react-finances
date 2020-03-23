@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { List } from 'antd';
 
-import { Category } from './../../models/category';
+import { Category } from './../../models';
 
 interface Props {
   list: Category[];
