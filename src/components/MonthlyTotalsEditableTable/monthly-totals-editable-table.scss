@@ -1,0 +1,11 @@
+.monthly-totals-editable-table {
+  display: flex;
+
+  .expenses {
+    display: flex;
+
+    .expenses-column {
+      margin-left: 10px;
+    }
+  }
+}
