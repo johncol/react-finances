@@ -1,7 +1,7 @@
 import React from 'react';
-import { CategoriesList } from '../CategoriesList';
+import { CategoriesList } from './CategoriesList';
 import { Category, MonthlyExpense } from '../../models';
-import { ExpensesColumn } from '../ExpensesColumn';
+import { ExpensesColumn } from './ExpensesColumn';
 
 import './monthly-totals-editable-table.scss';
 

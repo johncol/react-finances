@@ -1,7 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import { List } from 'antd';
 
-import { Category } from './../../models';
+import { Category } from './../../../models';
+import { ColumnHeader } from '../ColumnHeader';
 
 interface Props {
   list: Category[];
@@ -11,7 +12,7 @@ export const CategoriesList: FunctionComponent<Props> = ({ list }) => {
   return (
     <div className="categories-list">
       <List
-        header={<strong>Categories</strong>}
+        header={<ColumnHeader title="Categories" />}
         itemLayout="horizontal"
         dataSource={list}
         bordered
